@@ -1,0 +1,135 @@
+* {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #282a2c;
+    --border-color: #666;
+    --font-color: #f1f5f9;
+    --x-color: #ff0043;
+    --o-color: #3f35cc;
+    --win-color: #4dff91;
+    --endGame-color: #cddb00;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+h1 {
+    text-decoration:overline;
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+
+h2 {
+    margin: 1vh;
+}
+
+.player1Label {
+    color: var(--x-color);
+}
+
+.player2Label {
+    color: var(--o-color);
+}
+
+.playersName {
+    margin: .5vh;
+    text-align: left;
+}
+
+#startGame {
+    border-radius: 2rem;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 2rem;
+    width: 4rem;
+}
+
+#startGame:hover {
+    margin-top: 2vh;
+    margin-bottom: 0.2vh;
+    background-color: #4dff91;
+    height: 2.5rem;
+    width: 4.5rem;
+}
+
+.message {
+    margin: 1vh;
+    text-align: left;
+    margin-left: 43%;
+}
+
+.gameKeys {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: xx-large;
+    background-color: var(--bg-color);
+    height: 5rem;
+    width: 5rem;
+    color: var(--font-color);
+}
+
+.gameKeys:hover {
+    cursor:pointer;
+}
+
+#gameKey-1,  #gameKey-4{
+    border-bottom: 0.2rem solid var(--font-color);
+    border-right: 0.2rem solid var(--font-color)
+}
+
+#gameKey-2, #gameKey-5 {
+    border-bottom: 0.2rem solid var(--font-color);
+}
+
+#gameKey-3, #gameKey-6 {
+    border-bottom: 0.2rem solid var(--font-color);
+    border-left: 0.2rem solid var(--font-color);
+}
+
+#gameKey-7 {
+    border-right: 0.2rem solid var(--font-color);
+}
+
+#gameKey-9 {
+    border-left: 0.2rem solid var(--font-color);
+}
+
+#restartGame {
+    border-radius: 1rem;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 1.5rem;
+    width: 4rem;
+}
+
+#restartGame:hover {
+    margin-top: 2vh;
+    margin-bottom: 0.2vh;
+    background-color: #4dff91;
+    height: 2rem;
+    width: 4.5rem;
+}
+
+#changeTheme {
+    border-radius: 1rem;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 1.5rem;
+    width: 6rem;
+}
+
+#changeTheme:hover {
+    margin-top: 2vh;
+    margin-bottom: 0.2vh;
+    background-color: var(--endGame-color);
+    height: 2rem;
+    width: 6.5rem;
+}

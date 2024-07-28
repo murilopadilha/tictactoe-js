@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jogo da Velha - Murilo Miorim</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main data-theme="dark">
+        <h1>Jogo da Velha</h1>
+    
+        <div class="player-inputs">
+            <h2>Jogadores:</h2>
+            <label for="playerName-1" class="player1Label">Jogador X :</label>
+            <input type="text" id="playerName-1" class="playersName">
+            <br>
+            <label for="playerName-2" class="player2Label">Jogador O :</label>
+            <input type="text" id="playerName-2" class="playersName">
+            <br>
+            <button type="button" id="startGame" disabled>Iniciar</button>
+            <br><br>
+        </div>
+
+        <div class="game">
+            <div class="message" id="message"></div>
+
+            <input type="text" class="gameKeys" id="gameKey-1" disabled>
+            <input type="text" class="gameKeys" id="gameKey-2" disabled>
+            <input type="text" class="gameKeys" id="gameKey-3" disabled>
+            <br>
+            <input type="text" class="gameKeys" id="gameKey-4" disabled>
+            <input type="text" class="gameKeys" id="gameKey-5" disabled>
+            <input type="text" class="gameKeys" id="gameKey-6" disabled>
+            <br>
+            <input type="text" class="gameKeys" id="gameKey-7" disabled>
+            <input type="text" class="gameKeys" id="gameKey-8" disabled>
+            <input type="text" class="gameKeys" id="gameKey-9" disabled>
+            <br>
+            <br>
+            <button type="button" id="restartGame" disabled>Reiniciar</button>
+            <button type="button" id="changeTheme">Claro/Escuro</button>
+        </div>
+    </main>
+</body>
+</html>
